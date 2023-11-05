@@ -1,0 +1,25 @@
+{
+  "name": "challenge_01",
+  "version": "1.0.0",
+  "description": "Contar el numero de veces que aparecen ciertas palabras",
+  "main": "challenge_01.js",
+  "scripts": {
+    "start": "node challenge_01.js",
+    "test": "jest"
+  },
+  "author": "Youssef El Mzouri",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "standard": "^17.1.0"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json",
+    "env": {
+      "jest": true
+    }
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
