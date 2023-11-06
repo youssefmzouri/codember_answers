@@ -5,7 +5,7 @@
   "main": "challenge_01.js",
   "scripts": {
     "start": "node challenge_01.js",
-    "test": "jest"
+    "test": "jest --watch"
   },
   "author": "Youssef El Mzouri",
   "license": "ISC",
@@ -20,6 +20,10 @@
     }
   },
   "jest": {
+    "collectCoverage": true,
+    "testPathIgnorePatterns": [
+      "/node_modules/"
+    ],
     "testEnvironment": "node"
   }
 }
