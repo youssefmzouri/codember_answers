@@ -1,4 +1,4 @@
-const { challenge01 } = require('./challenge_01')
+const { challenge01 } = require('../index')
 
 describe('Count words different size', () => {
   test('Short sentence 1', () => {

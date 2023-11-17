@@ -4,7 +4,7 @@
   "description": "Contar el numero de veces que aparecen ciertas palabras",
   "main": "challenge_01.js",
   "scripts": {
-    "start": "node challenge_01.js",
+    "start": "node indeX.js",
     "test": "jest --watch"
   },
   "author": "Youssef El Mzouri",
